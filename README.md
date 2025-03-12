@@ -3,7 +3,7 @@
   <img src="Geminal_Logo.jpg" alt="KasperScan Logo" width="830" height="600" style="border-radius: 50%; border: 1px solid white;">
 </p>
 
-# What is KasperScan?
+# What is GeminaL?
 
 KasperScan is an open-source tool written in Bash, utilizing the Kaspersky API to scan :
 - Hashes
@@ -15,15 +15,15 @@ KasperScan is an open-source tool written in Bash, utilizing the Kaspersky API t
 <br><br>
 
 
-# Clone KasperScan Tool
+# Clone Geminal Tool
 
-`git clone https://github.com/aker-1/KasperScan.git`<br><br><br>
+`git clone https://github.com/aker-1/GeminaL.git`<br><br><br>
 
 
 # Usage
-`cd KasperScan`<br><br>
+`cd GeminaL`<br><br>
 `chmod 777 *`<br><br>
-`./Scan_KasperSky.sh`<br><br>
+`./GeminaL.sh`<br><br>
 <br>
 # Screenshot
 
