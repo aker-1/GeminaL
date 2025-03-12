@@ -1,6 +1,6 @@
 # GeminaL
 <p align="center">
-  <img src="Geminal_Logo.jpg" alt="KasperScan Logo" width="830" height="650" style="border-radius: 50%; border: 1px solid white;">
+  <img src="Geminal_Logo.jpg" alt="KasperScan Logo" width="830" height="600" style="border-radius: 50%; border: 1px solid white;">
 </p>
 
 # What is KasperScan?
