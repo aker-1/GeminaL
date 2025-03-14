@@ -10,22 +10,29 @@ PINK="\e[1;95m"
 
 echo " "
 function funlogo(){
-    toilet -f pagga -F metal GeminaL
+  clear
+    echo -e "${BLUE_BOLD}
+█████████║██████╗ ██████████╗██ ████╗  ██║███████ ██║   
+██╔══════║██╔═══╝ ████╗ ████║██║████╗  ██║██╔══██╗██║     
+██╚═█████║█████╗  ██╔████╔██║██║██╔██╗ ██║███████║██║     
+██╔═══███║██╔══╝  ██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║     
+█████████║███████╗██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗
+╚════════╚══════ ╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ ══════╝
+    ${RESET}"
 }
 funlogo
-
 
 echo -e "${WHITE}Say...What's you ask? ${RESET}"
 read ask
 
 
-GEMINI_API_KEY="AIzaSyDiJA8LqKmLPMRqlJmDrHzvnqMcLVD1HBU"
+GEMINI_API_KEY="AIzaSyCmPBhLFoM6sj6bPme2wnJ46Dwt7tutrUk"
 
-curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY" \
+response=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}" \
 -H 'Content-Type: application/json' \
 -X POST \
--d '{
-  "contents": [{
-    "parts":[{"text": "${ask}"}]
-    }]
-   }'
+-d "{ \"contents\": [{ \"parts\": [{ \"text\": \"$ask\" }] }] }" | jq -r '.candidates[0].content.parts[0].text')
+
+
+echo "Response From GeminaL : "
+echo "$response"
