@@ -24,7 +24,7 @@ allowing to you to use ai in your terminal
 # Screenshot
 
 <p align="center">
-  <img src="GeminaL_photoo.png" alt="KasperScan Screenshot" style="border-radius:3px">
+  <img src="GeminaL_Photo.png" alt="GeminaL Screenshot" style="border-radius:3px">
 </p>
 
 <br>
