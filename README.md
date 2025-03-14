@@ -5,12 +5,8 @@
 
 # What is GeminaL?
 
-KasperScan is an open-source tool written in Bash, utilizing the Kaspersky API to scan :
-- Hashes
-- URLs
-- IP Addresses
-- Files
-- And more...
+GeminaL is an open-source tool written in Bash,<br>
+allowing to you to use ai in your terminal
 
 <br><br>
 
@@ -28,7 +24,7 @@ KasperScan is an open-source tool written in Bash, utilizing the Kaspersky API t
 # Screenshot
 
 <p align="center">
-  <img src="Scan_KasperSky.png" alt="KasperScan Screenshot" style="border-radius:3px">
+  <img src="GeminaL_photoo.png" alt="KasperScan Screenshot" style="border-radius:3px">
 </p>
 
 <br>
@@ -38,6 +34,8 @@ KasperScan is an open-source tool written in Bash, utilizing the Kaspersky API t
 Linux or macOS
 
 Bash Shell
+
+Gemini Api
 
 <br>
 
