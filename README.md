@@ -5,8 +5,8 @@
 
 # What is GeminaL?
 
-GeminaL is an open-source tool written in Bash,<br>
-allowing to you to use ai in your terminal
+GeminaL is an open-source tool written in Bash, allowing to you <br>
+to use ai in your terminal
 
 <br><br>
 
@@ -21,6 +21,7 @@ allowing to you to use ai in your terminal
 `chmod 777 *`<br><br>
 `./GeminaL.sh`<br><br>
 <br>
+
 # Screenshot
 
 <p align="center">
